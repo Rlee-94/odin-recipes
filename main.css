@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    border: 3px solid black;
+}
+.content {
+    display: flex;
+    margin: 10px 20px;
+    padding: 0 30px;
+    border: 3px solid red;
+}
+
+img {
+    width: 100%;
+    min-height: 300px;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 2px;
+}
+.title{
+    background-color: white;
+    padding: 10px;
+    border: 15px double rgb(61, 144, 192);
+    border-radius: 15px;
+    color: black;
+    font-size: 50px;
+    margin: 80px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    
+}
+
+.box-text {
+ font-family: Comic Sans MS;;
+ text-align: center;
+ font-size: 25px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(57, 109, 60);
+}
+
