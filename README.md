@@ -1,6 +1,6 @@
 # Odin-Recipes
 
-Project to create an interactive shopping list.
+Project to create a website that links to different recipes.
 
 🔗 **Live preview:** [here](https://rlee-94.github.io/odin-recipes/)
 
